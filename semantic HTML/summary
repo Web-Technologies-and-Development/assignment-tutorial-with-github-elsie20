@@ -1,0 +1,9 @@
+ semantic choices such as using <article> for the main content, <aside> for quick resources, and <section> for structured parts like “Our Mission” and “What We Do.” This ensures the content is meaningful and easy to navigate. For accessibility, I included a skip link to let users jump directly to the main content, used <label> elements for all form field.
+
+One tricky bit I faced was linking images and pages across different folders. At first, my images did not display because the paths were in different places. I solved this by using ../ to move up one folder from semantic html and then correctly referencing the images and pages directories. This gave me a clearer understanding of how relative file paths work in HTML.
+
+index.html (Home page): Fully developed page. It introduces the MindWell Initiative, explains its mission, lists activities, includes meaningful images with alt text, provides quick resources in an <aside>, and has an accessible form.
+
+aboutus.html (About page): Currently a placeholder page inside the pages folder. Intended to provide background information on the initiative, its goals, and its team.
+
+contact.html (Contact page): Currently a placeholder page inside the pages folder. Intended to offer ways to reach out for more support, including contact details or a form.
